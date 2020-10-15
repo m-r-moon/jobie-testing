@@ -1,0 +1,57 @@
+## TEAM MEMBER TEST
+*Version 1.1: 2020-09-10 @barrycumbie *
+
+### Instructions
+- Run through the test, attempting to continue past any invalid or failed steps, if at all possible.  
+- For all "No" reply and @barrycumbie to say which step failed and why. Include the step number.
+- Test not clear? Reply @barrycumbie and say ABANDONED at what step # and why
+- Test need improvements? Guess what? @barrycumbie , tell me.
+- Record ideas for new features as a new issue. Don't forget to refer to this issue # as the origin of the idea.
+- Test passed? Yay. @barrycumbie and notify.
+
+### Test Script 
+
+1. [x] Via full platform (i.e., desktop/laptop), navigate to this website URL to view the markdown document: 
+> hint: right click to open in a new tab
+[team-data.md](https://github.com/barrycumbie/jobie-19/blob/master/team-data.md) 
+** Did you navigate to the URL successfully? Y/N **
+YES
+1. [x] ** Can you view a list of team member names? Y/N **
+YES
+1. [x] Count the number of table entries. 
+<strike>** Does N = 24 + 1? Y/N **</strike> ** Does N = N<sub>s</sub> + 1? Y/N **
+YES 
+1. [x] ** Does the list also include majors for all entries? Y/N **
+YES
+1. [x] ** Does the list also include graduation terms for all entries? Y/N **
+YES - Changed typo on graduation year for Reagan Howard
+1. [x] Search for duplicates: 
+  1.1. Go to our Canvas Course page HOME > PEOPLE and copy the list of classmates into a spreadsheet. 
+done
+  1.1. Format the data to include just the name of the students
+done
+  1.1. Delete Cumbie or any non-students on the list
+done
+  1.1. Copy/paste the list of students from the team-data.md file
+done
+  1.1. Sort the list 
+done
+  1.1. Add a formula to compare rows above and below.
+done
+  1.1. ** Are there any suspected duplicates (fuzzy matches)? Y/N **
+yes - no extra members, but not all names are exact matches. Several include middle names, one contains a typo, and one contains a nickname or shortened first name
+
+1. [x] Spaghetti test. 
+
+** Are there any notable issues: errors, anomalies, irregularities? Y/N **
+Yes - Two people are not on both lists
+Yes - approximate matches on some names
+
+This is the one where you create new issues, maybe you thought of something while running the test. A new feature, a bug not in the scope of this test.  
+
+> Let's throw is out on the porch and see if the cat licks it up
+> Let's throw it against the wall and see if it sticks.
+> Let's run it up the flagpole and see who salutes it
+> - from "12 Angry Men"
+
+[team-list-comparison.xlsx](https://github.com/barrycumbie/una-capstone-devops/files/5286326/team-list-comparison.xlsx)
